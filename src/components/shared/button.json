@@ -1,0 +1,52 @@
+{
+  "collectionName": "components_shared_buttons",
+  "info": {
+    "displayName": "button",
+    "icon": "alien"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "text": {
+      "type": "string",
+      "unique": false,
+      "required": true
+    },
+    "size": {
+      "type": "enumeration",
+      "enum": [
+        "L",
+        "M",
+        "S"
+      ]
+    },
+    "color": {
+      "type": "enumeration",
+      "enum": [
+        "blue",
+        "red",
+        "yellow",
+        "transparent",
+        "gray",
+        "orange"
+      ]
+    },
+    "class": {
+      "type": "enumeration",
+      "enum": [
+        "border-transparent-orange",
+        "border-transparent-blue",
+        "no-border-transparent-blue"
+      ]
+    }
+  }
+}
